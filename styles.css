@@ -10,7 +10,17 @@
     --neutral-light-grey: hsl(30, 18%, 87%);
     --neutral-wenge-brown: hsl(30, 10%, 34%);
     --neutral-dark-charcoal: hsl(24, 5%, 18%);
-  }
+}
+
+body {
+    background-color: var(--neutral-eggshell);
+}
+
+.recipie-container{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
 
 p, li, td {
     font-size: 16;

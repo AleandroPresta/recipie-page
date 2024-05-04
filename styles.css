@@ -27,6 +27,28 @@ h1, h2 {
     font-weight: 400;
 }
 
+.recipie-container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.recipe-card {
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	margin-top: 20px;
+}
+
+#image-omelette {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
 /*
 .young-serif-regular {
   font-family: "Young Serif", serif;

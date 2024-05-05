@@ -76,6 +76,20 @@ ul.small-bullets li::marker {
     padding-left: 20px;
 }
 
+.preparation-time-card {
+    background-color: var(--neutral-rose-white);
+    padding-left: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 10px;
+}
+
+.preparation-time-card > h2 {
+    font-family: "Outfit", sans-serif;
+    color: var(--primary-dark-raspberry);
+    font-weight: 600;
+}
+
 
 /*
 .young-serif-regular {
@@ -87,7 +101,7 @@ ul.small-bullets li::marker {
 .outfit-<uniquifier> {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: <weight>; 400, 600, 700
   font-style: normal;
 }
 

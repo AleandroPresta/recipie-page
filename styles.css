@@ -95,6 +95,26 @@ hr {
     border-top: 1px solid var(--neutral-light-grey); /* Set top border only */
 }
 
+.nutrition-value {
+    font-weight: bold;
+    color: var(--primary-nutmeg);
+    text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  height: 200px;
+}
+
+.nutrition-container table tr:not(:last-child) {
+    border-bottom: 1px solid var(--neutral-light-grey);
+}
+
+td {
+    padding-left: 30px;
+}
+
 
 /*
 .young-serif-regular {

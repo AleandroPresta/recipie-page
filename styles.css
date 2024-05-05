@@ -52,7 +52,7 @@ h1 {
 	background-color: #fff;
 	border-radius: 5px;
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-	margin-top: 20px;
+	margin-top: 15px;
 }
 
 #image-omelette {
@@ -88,6 +88,11 @@ ul.small-bullets li::marker {
     font-family: "Outfit", sans-serif;
     color: var(--primary-dark-raspberry);
     font-weight: 600;
+}
+
+hr {
+    border: none; /* Reset default border */
+    border-top: 1px solid var(--neutral-light-grey); /* Set top border only */
 }
 
 
